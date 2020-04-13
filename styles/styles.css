@@ -27,7 +27,7 @@ body {
 
 .game-box {
   margin: 0 auto;
-  width: 60%;
+  width: 30%;
 }
 
 .game-box .score-wrap {
@@ -43,10 +43,38 @@ body {
 }
 
 img {
-  width: 100px;
-  border: 1px solid #ccc;
+  border: 0.5px solid #ccc;
+  cursor: pointer;
 }
 
 .img-block {
-  width: auto;
+  width: 99px;
+}
+
+.styleformat {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .game-box {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .game-box {
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-box {
+    width: 83%;
+  }
+}
+
+@media (max-width: 375px) {
+  .game-box {
+    width: 100%;
+  }
 }
