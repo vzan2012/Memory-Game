@@ -57,6 +57,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let cardsChosenId = [];
   let cardsWon = [];
 
+  cardArray.sort(() => 0.5 - Math.random());
+
   // Create the board
   let createBoard = () => {
     cardArray.map((cardDetail, index) => {
